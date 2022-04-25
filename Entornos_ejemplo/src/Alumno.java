@@ -11,4 +11,8 @@ public class Alumno {
 		this.apellido=a;
 		this.DNI=dni;
 	}
+	// añado metodo to String 
+	public String toString() {
+		return "alumno->Nombre : "+nombre+ "Apellido : "+apellido+ "DNI:" +DNI;
+	}
 }
