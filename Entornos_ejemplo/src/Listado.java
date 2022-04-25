@@ -17,6 +17,8 @@ public class Listado {
 		
 		System.out.println("Alumno 1 :");
 
+		Alumno al1= new Alumno("Pedro","Carrera", 123456789);
+		System.out.println(al1.toString());
 	}
 
 }
